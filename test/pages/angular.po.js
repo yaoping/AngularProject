@@ -32,7 +32,7 @@ var angularHomePage = function () {
         angularHomePage.existToDoLists.get(2).element(by.css('input')).click();
     };
 
-    angularHomePage.DoneLists = element(by.css(".done-true"));
+    angularHomePage.DoneLists = element.all(by.css(".done-true"));
 
     return angularHomePage;
 };

@@ -20,7 +20,7 @@ var angularHomeHandler = function () {
     };
 
     angularHomeHandler.getDoneListInformation = function () {
-        return angularHomePage.DoneLists.get(2).getText();
+        return angularHomePage.DoneLists.get(0).getText();
     }
 
     return angularHomeHandler;

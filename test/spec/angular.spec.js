@@ -26,7 +26,7 @@ describe('interacting with the angualr page', function () {
     });
 
     it("the done list's length should be growth when finished it", function () {
-        expect(angularHomeHandler.getDoneListInformation()).toEqual("learn protractor class");
+        expect(angularHomeHandler.getDoneListInformation()).toEqual("learn angular");
     })
 
 });
