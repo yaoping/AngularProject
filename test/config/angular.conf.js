@@ -1,13 +1,12 @@
-//var endpoint = require('endpoint.json');
+var endpoint = require('./endpoint.json');
 var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 var JasmineSpecReporter = require('jasmine-spec-reporter');
 
 exports.config = {
 
     restartBrowserBetweenTest: true,
-    //seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['../spec/angular.spec.js'],
-    //baseUrl: endpoint[process.env.npm_config_endpoint || 'angular-home'],
+    baseUrl: endpoint[process.env.npm_config_endpoint || 'angular-home'],
     capabilities: {
         'browserName': 'chrome',
         'chromeOptions': {
