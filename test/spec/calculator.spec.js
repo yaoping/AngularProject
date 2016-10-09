@@ -21,6 +21,8 @@ describe('test the simple calculator ', function () {
         calculatorHomeHandler.addition(5, 3);
 
         expect(calculatorPage.result.getText()).toEqual("8");
+
+        expect(calculatorPage.historyResult.getText()).toEqual("8");
     });
 
     it('should subtractrion two parameters', function () {
