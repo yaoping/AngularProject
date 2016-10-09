@@ -1,4 +1,7 @@
+
 var endpoint = require('./endpoint.json');
+var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+var JasmineSpecReporter = require('jasmine-spec-reporter');
 
 exports.config = {
     restartBrowserBetweenTest: true,

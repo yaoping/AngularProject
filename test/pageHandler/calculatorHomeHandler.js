@@ -1,3 +1,12 @@
-/**
- * Created by u386536 on 30/09/2016.
- */
+'use strict'
+
+var calculatorPage = require('../pages/calculator.po.js')();
+
+var calculatorHomeHandler = function () {
+    var calculatorHomeHandler = {};
+
+
+    return calculatorHomeHandler;
+};
+
+module.exports = calculatorHomeHandler;
